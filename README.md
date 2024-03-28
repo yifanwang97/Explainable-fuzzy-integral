@@ -46,14 +46,20 @@ The training results are shown in a txt file "1_fuzzy_integral_fold1/results/all
 
 The validation results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/validation_accuracy.txt".
 
-#### Shared Sugeno Integral and Shared Choquet Integral
+#### Shared SI & Shared ChI
 Run "main_simple_integral.py".
 
 We can obtain the fuzzy fusion results of two methods: Shared SI and Shared ChI.
 
 SI means Sugeno Integral; ChI means Choquet Integral.
 
-The results are shown in a txt file "".
+The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/Shared_SI_ChI.txt".
+
+#### SI for each class & ChI for each class
+(1) Run "computing_contribution_val.py".
+This function computes the fuzzy density values for each class. 
+
+The results are shown in a json file "".
 
 
 
