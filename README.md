@@ -54,6 +54,7 @@ The testing results are shown in a txt file "1_fuzzy_integral_fold1/results/all_
 ```
 python testing_acc_train.py
 ```
+
 The training results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/training_accuracy.txt".
 
 ```
@@ -162,7 +163,13 @@ Please refer to the folder (i.e., ).
 
 Here, we show how an input image can be classified into a specific class using fuzzy integral fusion.
 
-Specially, this provides a detailed classification process for a given image from the color-biased dataset (fold 2), as executed by ChI-DE.
+Specially, this provides a detailed classification process for a given image (i.e., n01828970_11178) from the color-biased dataset (fold 2), as executed by ChI-DE.
+
+```
+python main_ChI_DE_color_fold2.py
+```
+
+
 
 
 
