@@ -169,7 +169,32 @@ Specially, this provides a detailed classification process for a given image (i.
 python main_ChI_DE_color_fold2.py
 ```
 
-The classification process showns in a txt file "".
+The classification process (including contributions and predictions) showns in a txt file "2_explainability/explainability_results.txt".
+
+Prediction Results of A Given Image from the Color-biased Dataset (Fold 2)
+
+
+|No.|Class name|Shape|Texture|Color|ChI-DE|
+|:-------|---------|--------|---------|-----------|------------|
+|1| Goldfinch | 7.2468e-06 | 2.6133e-03 | 5.4039e-04 | 1.3750e-03 |	
+|2| Indigo bunting | 1.1503e-07 | 4.6238e-01 | 1.4650e-03 | 1.7185e-01 |
+|3| Robin | 1.1038e-06 | 2.3641e-04 | 1.5929e-03 | 1.0220e-03 |
+|4| Bulbul | 7.1790e-06 | 8.4280e-04 | 1.3746e-04 | 3.8352e-04 |
+|5| Jay | 2.4887e-06 | 9.7559e-03 | 2.0715e-04 | 8.0223e-03 |
+|6| Magpie | 3.5713e-04 | 1.3689e-03 | 1.9123e-05 | 8.5513e-04 |
+|7| Macaw | 3.9998e-03 | 7.0415e-05 | 6.9797e-03 | 5.1104e-03 |
+|8| Bee eater | 9.4481e-01 | 1.3514e-03 | 3.4885e-01 | 7.1974e-01 |
+|9| Jacamar | 3.1552e-06 | 1.8872e-05 | 2.4077e-03 | 1.1749e-03 |
+|10| Black swan | 1.4385e-04 | 3.0834e-02 | 1.0924e-03 | 1.4059e-02 |
+|11| White stork | 5.9533e-05 | 3.2309e-03 | 7.1100e-04 | 1.8913e-03 |
+|12| American egret | 5.0587e-02 | 2.5455e-03 | 1.8586e-04 | 2.4691e-02 |
+|13| Granny Smith | 3.5797e-06 | 1.3983e-04 | 1.0046e-02 | 4.3329e-03 |
+|14| Strawberry | 7.6811e-06 | 2.8326e-04 | 1.7828e-03 | 1.6470e-03 |
+|15| Orange | 8.7682e-06 | 4.8315e-01 | 1.3640e-03 | 1.4257e-01 |
+|16| Roschip | 4.1118e-06 | 1.5379e-04 | 6.2114e-01 | 3.3349e-01 |
+|17| Buckeye | 8.3045e-08 | 1.0211e-03 | 1.4812e-03 | 1.4727e-03 |
+
+
 
 
 
