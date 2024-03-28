@@ -14,19 +14,25 @@ We can get a ResNet18 model for the shape images.
 
 The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/log.txt".
 
-> python main_texture.py 
+```
+python main_texture.py 
+```
 
 We can get a ResNet18 model for the texture images. 
 
 The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/texture_resnet18/log.txt".
 
-> main_color.py 
+```
+python main_color.py 
+```
 
 We can get a ResNet18 model for the color images. 
 
 The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/color_resnet18/log.txt".
 
-> main_ori.py 
+```
+python main_ori.py 
+```
 
 We can get a ResNet18 model for the original images. 
 
@@ -37,7 +43,9 @@ Please refer to the folder (i.e., 1_fuzzy_integral_fold1).
 
 #### Baseline
 
-> testing_acc_test.py 
+```
+python testing_acc_test.py 
+```
 
 We can get the classification accuracy of trained ResNet18 models on the single-feature testing datasets. 
 
@@ -51,7 +59,9 @@ The validation results are shown in a txt file "1_fuzzy_integral_fold1/results/a
 
 #### Shared SI & Shared ChI
 
-> main_simple_integral.py
+```
+python main_simple_integral.py
+```
 
 We can obtain the fuzzy fusion results of two methods: Shared SI and Shared ChI.
 
@@ -61,13 +71,17 @@ The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets
 
 #### SI for each class & ChI for each class
 
-> computing_contribution_val.py
+```
+python computing_contribution_val.py
+```
 
 This function computes the fuzzy density values for each class. 
 
 The results are shown in a json file "1_fuzzy_integral_fold1/data/all_datasets/contribution/contribution_each_class_val.json".
 
-> main_gi_for_each_class.py
+```
+python main_gi_for_each_class.py
+```
 
 We can obtain the fuzzy fusion results of two methods: SI for each class and ChI for each class.
 
@@ -75,7 +89,9 @@ The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets
 
 #### ChI-QP
 
-> main_ChI_QP_all.py
+```
+python main_ChI_QP_all.py
+```
 
 We can obtain the fuzzy fusion results of ChI-QP.
 
@@ -83,7 +99,9 @@ The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets
 
 #### iCHIMP
 
-> main_iCHIMP_all.py
+```
+python main_iCHIMP_all.py
+```
 
 We can obtain the fuzzy fusion results of iCHIMP.
 
@@ -91,7 +109,9 @@ The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets
 
 #### ChI-DE
 
-> main_ChI_DE_all.py
+```
+python main_ChI_DE_all.py
+```
 
 We can obtain the fuzzy fusion results of ChI-DE.
 
@@ -99,13 +119,17 @@ The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets
 
 #### FI-CNN
 
-> testing_acc_val_F1_all.py
+```
+python testing_acc_val_F1_all.py
+```
 
 In this way, we can obtain the accuracy and F1 score on the validation datasets. 
 
 The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/F1_score.txt".
 
-> main_FI_CNN_all.py
+```
+python main_FI_CNN_all.py
+```
 
 We can obtain the fuzzy fusion results of FI-CNN.
 
