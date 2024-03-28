@@ -169,10 +169,9 @@ Specially, this provides a detailed classification process for a given image (i.
 python main_ChI_DE_color_fold2.py
 ```
 
-The classification process (including contributions and predictions) showns in a txt file "2_explainability/explainability_results.txt".
+The classification process (including contributions and predictions) is shown in a txt file "2_explainability/explainability_results.txt".
 
 Prediction Results of A Given Image from the Color-biased Dataset (Fold 2)
-
 
 |No.|Class name|Shape|Texture|Color|ChI-DE|
 |:-------|---------|--------|---------|-----------|------------|
@@ -194,10 +193,28 @@ Prediction Results of A Given Image from the Color-biased Dataset (Fold 2)
 |16| Roschip | 4.1118e-06 | 1.5379e-04 | 6.2114e-01 | 3.3349e-01 |
 |17| Buckeye | 8.3045e-08 | 1.0211e-03 | 1.4812e-03 | 1.4727e-03 |
 
+Contributions of Different Features as Determined by ChI-DE
+|No.|Class name|Shape|Texture|Color|
+|:-------|---------|--------|---------|-----------|
+|1| Goldfinch | 4.38% | 41.39% | 54.24% |	
+|2| Indigo bunting | 20.19% | 37.03% | 42.78% |	
+|3| Robin | 6.41% | 34.56% | 59.03% |
+|4| Bulbul | 27.09% | 39.89% | 33.03% |	
+|5| Jay | 5.39% | 81.96% | 12.65% |	
+|6| Magpie |  0.54% | 61.80% | 37.66% |	
+|7| Macaw | 24.48% | 16.50% | 59.02% |
+|8| Bee eater | 64.75% | 4.31% | 30.94% |	
+|9| Jacamar | 24.57% | 26.88% | 48.55% |
+|10| Black swan | 20.37% | 44.25% | 35.38% |
+|11| White stork | 21.42% | 52.38% | 26.20% |
+|12| American egret | 47.89% | 15.66% | 36.45% |	
+|13| Granny Smith | 11.74% | 45.77% | 42.49% |	
+|14| Strawberry |  0.13% | 8.91% | 90.96% |	
+|15| Orange | 7.96% | 29.33% | 62.71% |	
+|16| Roschip | 24.73% | 21.59% | 53.68% |	
+|17| Buckeye | 0.32% | 0.81% | 98.87% |
 
-
-
-
+	
 
 
 
