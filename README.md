@@ -8,9 +8,9 @@ Please refer to the folder (i.e., 1_fuzzy_integral_fold1/Training_DNNs).
 
 #### Run "main_shape.py". 
 
-  We can get a ResNet18 model for the shape images. 
+We can get a ResNet18 model for the shape images. 
 
-  The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/log.txt".
+The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/log.txt".
 
 #### Run "main_texture.py". 
 
@@ -48,6 +48,12 @@ The validation results are shown in a txt file "1_fuzzy_integral_fold1/results/a
 
 #### Shared Sugeno Integral and Shared Choquet Integral
 Run "main_simple_integral.py".
+
+We can obtain the fuzzy fusion results of two methods: Shared SI and Shared ChI.
+
+SI means Sugeno Integral; ChI means Choquet Integral.
+
+The results are shown in a txt file "".
 
 
 
