@@ -6,27 +6,25 @@ Before using fuzzy integral combine the shape, texture, and color features, we n
 ### Training Deep learning networks
 Please refer to the folder (i.e., 1_fuzzy_integral_fold1/Training_DNNs).
 
-#### Run "main_shape.py". 
-
 > main_shape.py 
 
 We can get a ResNet18 model for the shape images. 
 
 The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/log.txt".
 
-#### Run "main_texture.py". 
+> main_texture.py 
 
 We can get a ResNet18 model for the texture images. 
 
 The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/texture_resnet18/log.txt".
 
-#### Run "main_color.py". 
+> main_color.py 
 
 We can get a ResNet18 model for the color images. 
 
 The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/color_resnet18/log.txt".
 
-#### Run "main_ori.py". 
+> main_ori.py 
 
 We can get a ResNet18 model for the original images. 
 
@@ -36,7 +34,8 @@ The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_da
 Please refer to the folder (i.e., 1_fuzzy_integral_fold1).
 
 #### Baseline
-Run "testing_acc_test.py". 
+
+> testing_acc_test.py 
 
 We can get the classification accuracy of trained ResNet18 models on the single-feature testing datasets. 
 
@@ -49,7 +48,8 @@ The training results are shown in a txt file "1_fuzzy_integral_fold1/results/all
 The validation results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/validation_accuracy.txt".
 
 #### Shared SI & Shared ChI
-Run "main_simple_integral.py".
+
+> main_simple_integral.py
 
 We can obtain the fuzzy fusion results of two methods: Shared SI and Shared ChI.
 
@@ -58,47 +58,52 @@ SI means Sugeno Integral; ChI means Choquet Integral.
 The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/Shared_SI_ChI.txt".
 
 #### SI for each class & ChI for each class
-(1) Run "computing_contribution_val.py".
+
+> computing_contribution_val.py
 
 This function computes the fuzzy density values for each class. 
 
 The results are shown in a json file "1_fuzzy_integral_fold1/data/all_datasets/contribution/contribution_each_class_val.json".
 
-(2) Run "main_gi_for_each_class.py".
+> main_gi_for_each_class.py
 
 We can obtain the fuzzy fusion results of two methods: SI for each class and ChI for each class.
 
 The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/gi_for_each_class_SI_ChI.txt".
 
 #### ChI-QP
-Run "main_ChI_QP_all.py".
+
+> main_ChI_QP_all.py
 
 We can obtain the fuzzy fusion results of ChI-QP.
 
 The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/ChI-QP.txt".
 
 #### iCHIMP
-Run "main_iCHIMP_all.py".
+
+> main_iCHIMP_all.py
 
 We can obtain the fuzzy fusion results of iCHIMP.
 
 The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/iCHIMP.txt".
 
 #### ChI-DE
-Run "main_ChI_DE_all.py".
+
+> main_ChI_DE_all.py
 
 We can obtain the fuzzy fusion results of ChI-DE.
 
 The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/ChI-DE.txt".
 
 #### FI-CNN
-(1) Run "testing_acc_val_F1_all.py".
+
+> testing_acc_val_F1_all.py
 
 In this way, we can obtain the accuracy and F1 score on the validation datasets. 
 
 The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/F1_score.txt".
 
-(2) Run "main_FI_CNN_all.py".
+> main_FI_CNN_all.py
 
 We can obtain the fuzzy fusion results of FI-CNN.
 
