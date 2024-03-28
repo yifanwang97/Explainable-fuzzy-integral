@@ -8,9 +8,9 @@ Please refer to the folder (i.e., 1_fuzzy_integral_fold1/Training_DNNs).
 
 #### Run "main_shape.py". 
 
-We can get a ResNet18 model for the shape images. 
+  We can get a ResNet18 model for the shape images. 
 
-The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/log.txt".
+  The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/log.txt".
 
 #### Run "main_texture.py". 
 
@@ -34,9 +34,9 @@ The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_da
 Please refer to the folder (i.e., 1_fuzzy_integral_fold1).
 
 #### Baseline
-Run "testing_acc_test.py" 
+Run "testing_acc_test.py". 
 
-We can get classification accuracy of trained ResNet18 models on the single-feature testing datasets. 
+We can get the classification accuracy of trained ResNet18 models on the single-feature testing datasets. 
 
 The testing results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/testing_accuracy.txt".
 
@@ -47,6 +47,8 @@ The training results are shown in a txt file "1_fuzzy_integral_fold1/results/all
 The validation results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/validation_accuracy.txt".
 
 #### Shared Sugeno Integral and Shared Choquet Integral
+Run "main_simple_integral.py".
+
 
 
 
