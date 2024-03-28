@@ -100,7 +100,16 @@ The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets
 
 We can obtain the fuzzy fusion results of FI-CNN.
 
-The results are shown in a txt file "".
+The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/FI_CNN_F1_score.txt".
+
+#### Conclusion
+Here, all results are fuzzy fusion results on the combined dataset (fold 1).
+
+| Method | Accuracy |
+|-----:|-----------|
+|ResNet18 (shape)| JavaScript|
+|     2| Python    |
+|     3| SQL       |
 
 
 
