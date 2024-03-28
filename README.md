@@ -51,7 +51,13 @@ We can get the classification accuracy of trained ResNet18 models on the single-
 
 The testing results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/testing_accuracy.txt".
 
-You can also run "testing_acc_train.py" and "testing_acc_val.py".
+```
+python testing_acc_train.py
+```
+
+```
+python testing_acc_val.py
+```
 
 The training results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/training_accuracy.txt".
 
