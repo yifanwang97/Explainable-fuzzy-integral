@@ -1,0 +1,20 @@
+The dataset name is: 
+all_datasets
+
+
+The dataset type is: 
+test
+
+
+The total number of images is: 
+5970
+
+
+Sugeno integral accuracy is: 
+[0.8373534]
+
+
+Choquet integral accuracy is: 
+[0.87805694]
+
+
