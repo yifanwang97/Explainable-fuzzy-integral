@@ -106,7 +106,7 @@ The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets
 Here, all results are fuzzy fusion results on the combined dataset (fold 1).
 
 | Method | Accuracy |
-|-----:|-----------|
+|:-----|-----------|
 |ResNet18 (shape)| JavaScript|
 |     2| Python    |
 |     3| SQL       |
