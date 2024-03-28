@@ -94,6 +94,12 @@ The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets
 
 In this way, we can obtain the accuracy and F1 score on the validation datasets. 
 
+The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/F1_score.txt".
+
+(2) Run "main_FI_CNN_all.py".
+
+We can obtain the fuzzy fusion results of FI-CNN.
+
 The results are shown in a txt file "".
 
 
