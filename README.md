@@ -66,6 +66,13 @@ The results are shown in a json file "1_fuzzy_integral_fold1/data/all_datasets/c
 
 We can obtain the fuzzy fusion results of two methods: SI for each class and ChI for each class.
 
+The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/gi_for_each_class_SI_ChI.txt".
+
+#### ChI-QP
+Run "main_ChI_QP_all.py".
+
+We can obtain the fuzzy fusion results of ChI-QP.
+
 The results are shown in a txt file "".
 
 
