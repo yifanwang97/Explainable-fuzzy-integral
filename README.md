@@ -119,7 +119,8 @@ Here, all results are fuzzy fusion results on the combined dataset (fold 1).
 |ChI-DE|87.96%|
 |FI-CNN|89.93%|
 
-## Part 2: Fuzzy Integral
+## Part 2: Explainability
+
 
 
 
