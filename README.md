@@ -4,4 +4,5 @@ The code for the paper "Fusion of Explainable Deep Learning Features Using Fuzzy
 ## Part 1: Fuzzy Integral
 Before using fuzzy integral combine the shape, texture, and color features, we need to training deep learning networks for each single feature.
 ### Training Deep learning networks
-Please refer to 
+Please refer to the foler (i.e., 1_fuzzy_integral_fold1/Training_DNNs).
+Run "main_shape.py". We can get a ResNet18 model for the shape images. The training results are shown in   
