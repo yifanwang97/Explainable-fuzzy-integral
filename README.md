@@ -8,7 +8,7 @@ Please refer to the folder (i.e., 1_fuzzy_integral_fold1/Training_DNNs).
 
 #### Run "main_shape.py". 
 
-'''
+'''python
 main_shape.py 
 '''
 
