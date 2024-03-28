@@ -80,7 +80,14 @@ Run "main_iCHIMP_all.py".
 
 We can obtain the fuzzy fusion results of iCHIMP.
 
-The results are shown in a txt file "".
+The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/iCHIMP.txt".
+
+#### ChI-DE
+Run "main_ChI_DE_all.py".
+
+We can obtain the fuzzy fusion results of ChI-DE.
+
+The results are shown in a txt file ""
 
 
 
