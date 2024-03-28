@@ -36,7 +36,15 @@ Please refer to the folder (i.e., 1_fuzzy_integral_fold1).
 #### Baseline
 Run "testing_acc_test.py" 
 
-We can get classification accuracy of trained ResNet18 models on the testing datasets. The testing results are shown in a txt file 
+We can get classification accuracy of trained ResNet18 models on the single-feature testing datasets. 
+
+The testing results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/testing_accuracy.txt".
+
+You can also run "testing_acc_train.py" and "testing_acc_val.py".
+
+The training results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/training_accuracy.txt".
+
+The validation results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/validation_accuracy.txt".
 
 
 
