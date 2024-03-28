@@ -107,12 +107,17 @@ Here, all results are fuzzy fusion results on the combined dataset (fold 1).
 
 | Method | Accuracy |
 |:-------|-----------|
-|Single feature|
-|ResNet18 (shape)| JavaScript|
-|ResNet18 (texture)| Python    |
-|ResNet18 (color)| SQL       |
-|Shared SI| SQL       |
-
+|ResNet18 (shape)|69.97%|
+|ResNet18 (texture)|75.33%|
+|ResNet18 (color)|66.72%|
+|Shared SI|83.74%|
+|SI for each class|84.76%|
+|Shared ChI|87.81%|
+|ChI for each class|87.55%|
+|ChI-QP|89.41%|
+|iCHIMP|89.65%|
+|ChI-DE|87.96%|
+|FI-CNN|89.93%|
 
 
 
