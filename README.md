@@ -87,7 +87,14 @@ Run "main_ChI_DE_all.py".
 
 We can obtain the fuzzy fusion results of ChI-DE.
 
-The results are shown in a txt file ""
+The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/ChI-DE.txt".
+
+#### FI-CNN
+(1) Run "testing_acc_val_F1_all.py".
+
+In this way, we can obtain the accuracy and F1 score on the validation datasets. 
+
+The results are shown in a txt file "".
 
 
 
