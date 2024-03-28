@@ -46,6 +46,9 @@ The training results are shown in a txt file "1_fuzzy_integral_fold1/results/all
 
 The validation results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/validation_accuracy.txt".
 
+#### Shared Sugeno Integral and Shared Choquet Integral
+
+
 
 
 
