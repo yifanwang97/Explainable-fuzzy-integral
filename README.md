@@ -6,13 +6,13 @@ Before using fuzzy integral combine the shape, texture, and color features, we n
 ### Training Deep learning networks
 Please refer to the folder (i.e., 1_fuzzy_integral_fold1/Training_DNNs).
 
-> main_shape.py 
+> python main_shape.py 
 
 We can get a ResNet18 model for the shape images. 
 
 The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/log.txt".
 
-> main_texture.py 
+> python main_texture.py 
 
 We can get a ResNet18 model for the texture images. 
 
