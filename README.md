@@ -57,9 +57,16 @@ The results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets
 
 #### SI for each class & ChI for each class
 (1) Run "computing_contribution_val.py".
+
 This function computes the fuzzy density values for each class. 
 
-The results are shown in a json file "".
+The results are shown in a json file "1_fuzzy_integral_fold1/data/all_datasets/contribution/contribution_each_class_val.json".
+
+(2) Run "main_gi_for_each_class.py".
+
+We can obtain the fuzzy fusion results of two methods: SI for each class and ChI for each class.
+
+The results are shown in a txt file "".
 
 
 
