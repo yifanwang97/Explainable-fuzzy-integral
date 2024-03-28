@@ -159,7 +159,7 @@ Here, all results are fuzzy fusion results on the combined dataset (fold 1).
 |FI-CNN|89.93%|
 
 ## Part 2: Explainability
-Please refer to the folder (i.e., ).
+Please refer to the folder (i.e., 2_explainability).
 
 Here, we show how an input image can be classified into a specific class using fuzzy integral fusion.
 
@@ -168,6 +168,8 @@ Specially, this provides a detailed classification process for a given image (i.
 ```
 python main_ChI_DE_color_fold2.py
 ```
+
+The classification process showns in a txt file "".
 
 
 
