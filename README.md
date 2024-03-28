@@ -22,6 +22,10 @@ Run "main_ori.py".
 
 We can get a ResNet18 model for the original images. The training results are shown in a txt file "1_fuzzy_integral_fold1/data/all_datasets/model/original_resnet18/log.txt".
 
-### Fuzzy Integral Fusion in the decision level
+### Fuzzy Integral Fusion
+Please refer to the folder (i.e., 1_fuzzy_integral_fold1).
+
+#### Shared Sugeno Integral & Shared Choquet Integral
+
 
 
