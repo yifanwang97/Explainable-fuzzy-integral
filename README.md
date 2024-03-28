@@ -6,7 +6,7 @@ Before using fuzzy integral combine the shape, texture, and color features, we n
 ### Training Deep learning networks
 Please refer to the folder (i.e., 1_fuzzy_integral_fold1/Training_DNNs).
 
-```python
+```
 python main_shape.py 
 ```
 
