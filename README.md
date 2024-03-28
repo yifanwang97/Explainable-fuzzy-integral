@@ -54,12 +54,11 @@ The testing results are shown in a txt file "1_fuzzy_integral_fold1/results/all_
 ```
 python testing_acc_train.py
 ```
+The training results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/training_accuracy.txt".
 
 ```
 python testing_acc_val.py
 ```
-
-The training results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/training_accuracy.txt".
 
 The validation results are shown in a txt file "1_fuzzy_integral_fold1/results/all_datasets/validation_accuracy.txt".
 
