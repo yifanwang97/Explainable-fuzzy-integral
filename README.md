@@ -25,7 +25,11 @@ We can get a ResNet18 model for the original images. The training results are sh
 ### Fuzzy Integral Fusion
 Please refer to the folder (i.e., 1_fuzzy_integral_fold1).
 
-#### Shared Sugeno Integral & Shared Choquet Integral
+#### Baseline
+Run "testing_acc_test.py" 
+
+We can get classification accuracy of trained ResNet18 models on the testing datasets. The testing results are shown in a txt file 
+
 
 
 
