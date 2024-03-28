@@ -8,7 +8,7 @@ Please refer to the folder (i.e., 1_fuzzy_integral_fold1/Training_DNNs).
 
 #### Run "main_shape.py". 
 
-'main_shape.py 
+> main_shape.py 
 
 We can get a ResNet18 model for the shape images. 
 
