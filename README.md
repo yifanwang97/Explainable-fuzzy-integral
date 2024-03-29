@@ -145,7 +145,7 @@ The results are shown in a text file named "FI_CNN_F1_score.txt" located at "1_f
 Here, all the results represent the fuzzy fusion evaluated on the combined dataset (fold 1).
 
 | Method | Accuracy |
-|:-------|-----------|
+|:-------|:--------|
 |ResNet18 (shape)|69.97%|
 |ResNet18 (texture)|75.33%|
 |ResNet18 (color)|66.72%|
