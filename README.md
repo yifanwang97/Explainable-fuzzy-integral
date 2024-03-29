@@ -171,7 +171,7 @@ python main_ChI_DE_color_fold2.py
 
 The classification process (including contributions and predictions) is shown in a text file named "explainability_results.txt" located at "2_explainability/".
 
-Prediction Results of A Given Image from the Color-biased Dataset (Fold 2)
+Prediction results of a given image from the color-biased dataset (Fold 2) are shown as follows:
 
 |No.|Class name|Shape|Texture|Color|ChI-DE|
 |:-------|:---------|:--------|:---------|:-----------|:------------|
@@ -193,7 +193,7 @@ Prediction Results of A Given Image from the Color-biased Dataset (Fold 2)
 |16| Roschip | 4.1118e-06 | 1.5379e-04 | 6.2114e-01 | 3.3349e-01 |
 |17| Buckeye | 8.3045e-08 | 1.0211e-03 | 1.4812e-03 | 1.4727e-03 |
 
-Contributions of Different Features as Determined by ChI-DE
+Contributions of different features as determined by ChI-DE are shown as follows:
 
 |No.|Class name|Shape|Texture|Color|
 |:-------|:---------|:--------|:---------|:-----------|
