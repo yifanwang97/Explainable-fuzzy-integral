@@ -174,7 +174,7 @@ The classification process (including contributions and predictions) is shown in
 Prediction Results of A Given Image from the Color-biased Dataset (Fold 2)
 
 |No.|Class name|Shape|Texture|Color|ChI-DE|
-|:-------|---------|--------|---------|-----------|------------|
+|:-------|:---------|:--------|:---------|:-----------|:------------|
 |1| Goldfinch | 7.2468e-06 | 2.6133e-03 | 5.4039e-04 | 1.3750e-03 |	
 |2| Indigo bunting | 1.1503e-07 | 4.6238e-01 | 1.4650e-03 | 1.7185e-01 |
 |3| Robin | 1.1038e-06 | 2.3641e-04 | 1.5929e-03 | 1.0220e-03 |
@@ -196,7 +196,7 @@ Prediction Results of A Given Image from the Color-biased Dataset (Fold 2)
 Contributions of Different Features as Determined by ChI-DE
 
 |No.|Class name|Shape|Texture|Color|
-|:-------|---------|--------|---------|-----------|
+|:-------|:---------|:--------|:---------|:-----------|
 |1| Goldfinch | 4.38% | 41.39% | 54.24% |	
 |2| Indigo bunting | 20.19% | 37.03% | 42.78% |	
 |3| Robin | 6.41% | 34.56% | 59.03% |
