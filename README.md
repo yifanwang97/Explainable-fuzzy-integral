@@ -1,7 +1,7 @@
 # Explainable_fuzzy_integral
 The code for the paper "Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision".
 
-The three feature-biased datasets can be downloaded from http://ilab.usc.edu/andy/dataset/hve.zip.
+The three feature-biased ImageNet datasets can be downloaded from http://ilab.usc.edu/andy/dataset/hve.zip.
 
 ## Part 1: Fuzzy Integral
 Before using the fuzzy integral to combine shape, texture, and color features, we must train deep learning networks for each individual feature.
