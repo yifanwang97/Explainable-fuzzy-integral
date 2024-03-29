@@ -1,0 +1,93 @@
+0
+n01531178
+tensor([[1, 2, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.4139, 0.5424, 0.0438]])
+1
+n01537544
+tensor([[1, 2, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.3703, 0.4278, 0.2019]])
+2
+n01558993
+tensor([[2, 1, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.5903, 0.3456, 0.0641]])
+3
+n01560419
+tensor([[1, 2, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.3989, 0.3303, 0.2709]])
+4
+n01580077
+tensor([[1, 2, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.8196, 0.1265, 0.0539]])
+5
+n01582220
+tensor([[1, 0, 2]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.6180, 0.0054, 0.3766]])
+6
+n01818515
+tensor([[2, 0, 1]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.5902, 0.2448, 0.1650]])
+7
+n01828970
+tensor([[0, 2, 1]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.6475, 0.3094, 0.0431]])
+8
+n01843065
+tensor([[2, 1, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.4855, 0.2688, 0.2457]])
+9
+n01860187
+tensor([[1, 2, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.4425, 0.3538, 0.2037]])
+10
+n02002556
+tensor([[1, 2, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.5238, 0.2620, 0.2142]])
+11
+n02009912
+tensor([[0, 1, 2]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.4789, 0.1566, 0.3645]])
+12
+n07742313
+tensor([[2, 1, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.4249, 0.4577, 0.1174]])
+13
+n07745940
+tensor([[2, 1, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.9096, 0.0891, 0.0013]])
+14
+n07747607
+tensor([[1, 2, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.2933, 0.6271, 0.0796]])
+15
+n12620546
+tensor([[2, 1, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.5368, 0.2159, 0.2473]])
+16
+n12768682
+tensor([[2, 1, 0]])
+(0 is shape, 1 is texture, 2 is color.)
+tensor([[0.9887, 0.0081, 0.0032]])
+The Choquet integral results are:
+tensor([[1.3750e-03, 1.7185e-01, 1.0220e-03, 3.8352e-04, 8.0223e-03, 8.5513e-04,
+         5.1104e-03, 7.1974e-01, 1.1749e-03, 1.4059e-02, 1.8913e-03, 2.4691e-02,
+         4.3329e-03, 1.6470e-03, 1.4257e-01, 3.3349e-01, 1.4727e-03]])
+The final results is: 
+n01828970
+With the corresponding prediction:
+tensor([0.7197])
