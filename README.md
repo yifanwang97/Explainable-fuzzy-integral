@@ -142,7 +142,7 @@ We can obtain the fuzzy fusion results of FI-CNN.
 The results are shown in a text file named "FI_CNN_F1_score.txt" located at "1_fuzzy_integral_fold1/results/all_datasets/".
 
 #### Conclusion
-Here, all the results represent the fuzzy fusion outcomes on the combined dataset (fold 1).
+Here, all the results represent the fuzzy fusion evaluated on the combined dataset (fold 1).
 
 | Method | Accuracy |
 |:-------|-----------|
