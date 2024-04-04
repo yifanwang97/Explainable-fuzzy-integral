@@ -1,0 +1,29 @@
+The dataset name is: 
+all_datasets
+
+
+The dataset type is: 
+val
+
+
+The total number of images is: 
+5970
+
+
+shape_accuracy:
+tensor(0.7032)
+shape_f1_score:
+0.6872
+
+
+color:
+tensor(0.6697)
+color_f1_score:
+0.6546
+
+
+texture:
+tensor(0.7638)
+texture_f1_score:
+0.7599
+

@@ -1,0 +1,227 @@
+import sympy as sp
+import torchvision.models as models
+import torch
+from torch import nn
+# import torchvision.datasets as datasets
+import os
+# import torchvision.transforms as transforms
+import torch.nn.functional as F
+from data_loader import get_Dataloader
+import json
+
+def get_info_of_dataset(dir_root):
+
+    file1 = os.listdir(dir_root)
+    num_class = len(file1)
+    total_images = 0
+    # dict_num_images = {}
+    for i in range(num_class):
+        path_temp = os.path.join(dir_root, file1[i])
+        file2 = os.listdir(path_temp)
+        num_images_one_class = len(file2)
+        total_images = total_images + num_images_one_class
+        # dict_num_images[file1[i]] = num_images_one_class
+
+    return num_class, total_images
+
+
+def get_deep_model(dir_model, num_class):
+
+    device = torch.device('cpu')
+
+    model = models.resnet18()
+    fc_features = model.fc.in_features
+    model.fc = nn.Linear(fc_features, num_class)
+    checkpoint_shape = torch.load(dir_model, map_location=device)
+    model.load_state_dict(checkpoint_shape['state_dict'])
+
+    return model
+
+
+def get_deep_results(inputs, model):
+    with torch.no_grad():
+        outputs = model(inputs)
+    soft_output = F.softmax(outputs, dim=1)
+
+    return soft_output
+
+
+def main():
+
+    num_class, total_images = get_info_of_dataset(os.path.join(dir_root, 'shape', dataset_type))
+
+    print('The dataset name is: ')
+    print(dataset_name)
+    print('\n')
+    print('The dataset type is: ')
+    print(dataset_type)
+    print('\n')
+    print('The total number of images is: ')
+    print(total_images)
+    print('\n')
+
+    model_color = get_deep_model(dir_model_color, num_class)
+    model_shape = get_deep_model(dir_model_shape, num_class)
+    model_texture = get_deep_model(dir_model_texture, num_class)
+    model_color.eval()
+    model_shape.eval()
+    model_texture.eval()
+
+    num_correct_shape = torch.zeros(num_class)
+    num_total_shape = torch.zeros(num_class)
+    num_correct_color = torch.zeros(num_class)
+    num_total_color = torch.zeros(num_class)
+    num_correct_texture = torch.zeros(num_class)
+    num_total_texture = torch.zeros(num_class)
+
+    val_loader = get_Dataloader(dir_dataset_shape, dir_dataset_texture, dir_dataset_color, dir_dataset_original, total_images)
+
+    for idx, (texture_img, shape_img, color_img, original_img, label, img_name) in enumerate(val_loader):
+        output_shape = get_deep_results(shape_img, model_shape)
+        _, shape_pre = torch.max(output_shape, dim=1)
+
+        for j in range(total_images):
+            if label[j] == shape_pre[j]:
+                num_correct_shape[label[j]] = num_correct_shape[label[j]] + 1
+                num_total_shape[label[j]] = num_total_shape[label[j]] + 1
+            else:
+                num_total_shape[label[j]] = num_total_shape[label[j]] + 1
+
+        correct_shape = (label == shape_pre).sum()
+        shape_acc = correct_shape / total_images
+        print('shape:')
+        print(shape_acc)
+        acc_each_class_shape = num_correct_shape / num_total_shape
+        print(acc_each_class_shape)
+        print(num_correct_shape)
+        print(num_total_shape)
+
+
+        output_color = get_deep_results(color_img, model_color)
+        _, color_pre = torch.max(output_color, dim=1)
+
+        for j in range(total_images):
+            if label[j] == color_pre[j]:
+                num_correct_color[label[j]] = num_correct_color[label[j]] + 1
+                num_total_color[label[j]] = num_total_color[label[j]] + 1
+            else:
+                num_total_color[label[j]] = num_total_color[label[j]] + 1
+
+        correct_color = (label == color_pre).sum()
+        color_acc = correct_color / total_images
+        print('color:')
+        print(color_acc)
+        acc_each_class_color = num_correct_color / num_total_color
+        print(acc_each_class_color)
+        print(num_correct_color)
+        print(num_total_color)
+
+
+        output_texture = get_deep_results(texture_img, model_texture)
+        _, texture_pre = torch.max(output_texture, dim=1)
+
+        for j in range(total_images):
+            if label[j] == texture_pre[j]:
+                num_correct_texture[label[j]] = num_correct_texture[label[j]] + 1
+                num_total_texture[label[j]] = num_total_texture[label[j]] + 1
+            else:
+                num_total_texture[label[j]] = num_total_texture[label[j]] + 1
+
+        correct_texture = (label == texture_pre).sum()
+        texture_acc = correct_texture / total_images
+        print('texture:')
+        print(texture_acc)
+        acc_each_class_texture = num_correct_texture / num_total_texture
+        print(acc_each_class_texture)
+        print(num_correct_texture)
+        print(num_total_texture)
+
+    local_result = {}
+    local_class = val_loader.dataset.label_list
+    for i in range(num_class):
+
+        color_value_round = torch.round(acc_each_class_color[i] * 100) / 100
+        color_value = round(color_value_round.item(), 2)
+        shape_value_round = torch.round(acc_each_class_shape[i] * 100) / 100
+        shape_value = round(shape_value_round.item(), 2)
+        texture_value_round = torch.round(acc_each_class_texture[i] * 100) / 100
+        texture_value = round(texture_value_round.item(), 2)
+
+        acc_each_class = {'color': color_value,
+                          'shape': shape_value,
+                          'texture': texture_value}
+        local_result[local_class[i]] = acc_each_class
+
+    dir_json = os.path.join('data', dataset_name, 'contribution', 'contribution_each_class_val.json')
+    with open(dir_json, 'w') as f:
+        json.dump(local_result, f)
+
+
+    print()
+
+
+
+
+
+
+if __name__ == '__main__':
+    # Parameters
+    # dataset_name = 'color_biased_dataset'
+    # dir_root = os.path.join('data', dataset_name, 'feature_images')
+    # dataset_type = 'val'
+    #
+    # dir_model_color = os.path.join('data', dataset_name, 'model/color_resnet18', '45.pth')
+    # dir_model_shape = os.path.join('data', dataset_name, 'model/shape_resnet18', '12.pth')
+    # dir_model_texture = os.path.join('data', dataset_name, 'model/texture_resnet18', '38.pth')
+    # dir_model_original = os.path.join('data', dataset_name, 'model/original_resnet18', '29.pth')
+    #
+    # dir_dataset_color = os.path.join(dir_root, 'color', dataset_type)
+    # dir_dataset_shape = os.path.join(dir_root, 'shape', dataset_type)
+    # dir_dataset_texture = os.path.join(dir_root, 'texture', dataset_type)
+    # dir_dataset_original = os.path.join('data', dataset_name, 'original_images', dataset_type)
+
+    # ————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+    # dataset_name = 'shape_biased_dataset'
+    # dir_root = os.path.join('data', dataset_name, 'feature_images')
+    # dataset_type = 'val'
+    #
+    # dir_model_color = os.path.join('data', dataset_name, 'model/color_resnet18', '12.pth')
+    # dir_model_shape = os.path.join('data', dataset_name, 'model/shape_resnet18', '20.pth')
+    # dir_model_texture = os.path.join('data', dataset_name, 'model/texture_resnet18', '15.pth')
+    # dir_model_original = os.path.join('data', dataset_name, 'model/original_resnet18', '34.pth')
+    #
+    # dir_dataset_color = os.path.join(dir_root, 'color', dataset_type)
+    # dir_dataset_shape = os.path.join(dir_root, 'shape', dataset_type)
+    # dir_dataset_texture = os.path.join(dir_root, 'texture', dataset_type)
+    # dir_dataset_original = os.path.join('data', dataset_name, 'original_images', dataset_type)
+
+    # ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+    # dataset_name = 'texture_biased_dataset'
+    # dir_root = os.path.join('data', dataset_name, 'feature_images')
+    # dataset_type = 'val'
+
+    # dir_model_color = os.path.join('data', dataset_name, 'model/color_resnet18', '33.pth')
+    # dir_model_shape = os.path.join('data', dataset_name, 'model/shape_resnet18', '43.pth')
+    # dir_model_texture = os.path.join('data', dataset_name, 'model/texture_resnet18', '34.pth')
+    # dir_model_original = os.path.join('data', dataset_name, 'model/original_resnet18', '39.pth')
+
+    # dir_dataset_color = os.path.join(dir_root, 'color', dataset_type)
+    # dir_dataset_shape = os.path.join(dir_root, 'shape', dataset_type)
+    # dir_dataset_texture = os.path.join(dir_root, 'texture', dataset_type)
+    # dir_dataset_original = os.path.join('data', dataset_name, 'original_images', dataset_type)
+
+    dataset_name = 'all_datasets'
+    dir_root = os.path.join('data', dataset_name, 'feature_images')
+    dataset_type = 'val'
+
+    dir_model_color = os.path.join('data', dataset_name, 'model/color_resnet18', '8.pth')
+    dir_model_shape = os.path.join('data', dataset_name, 'model/shape_resnet18', '16.pth')
+    dir_model_texture = os.path.join('data', dataset_name, 'model/texture_resnet18', '23.pth')
+    dir_model_original = os.path.join('data', dataset_name, 'model/original_resnet18', '25.pth')
+
+    dir_dataset_color = os.path.join(dir_root, 'color', dataset_type)
+    dir_dataset_shape = os.path.join(dir_root, 'shape', dataset_type)
+    dir_dataset_texture = os.path.join(dir_root, 'texture', dataset_type)
+    dir_dataset_original = os.path.join('data', dataset_name, 'original_images', dataset_type)
+
+    main()

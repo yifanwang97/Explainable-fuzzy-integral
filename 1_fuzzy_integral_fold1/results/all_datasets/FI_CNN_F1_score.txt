@@ -1,0 +1,189 @@
+
+
+g_initial:
+[0.02, 0.09, 0.01]
+
+
+0
+g_measure:
+[0.02, 0.09, 0.01]
+
+
+Choquet integral accuracy is: 
+[0.8514238]
+
+
+
+
+1
+g_measure:
+[0.03, 0.09, 0.01]
+
+
+Choquet integral accuracy is: 
+[0.8596315]
+
+
+
+
+2
+g_measure:
+[0.04, 0.09, 0.01]
+
+
+Choquet integral accuracy is: 
+[0.8696817]
+
+
+
+
+3
+g_measure:
+[0.05, 0.09, 0.01]
+
+
+Choquet integral accuracy is: 
+[0.87638193]
+
+
+
+
+4
+g_measure:
+[0.06, 0.09, 0.01]
+
+
+Choquet integral accuracy is: 
+[0.8824121]
+
+
+
+
+5
+g_measure:
+[0.06, 0.06999999999999999, 0.01]
+
+
+Choquet integral accuracy is: 
+[0.89061975]
+
+
+
+
+6
+g_measure:
+[0.06, 0.08, 0.01]
+
+
+Choquet integral accuracy is: 
+[0.88559467]
+
+
+
+
+7
+g_measure:
+[0.06, 0.09, 0.01]
+
+
+Choquet integral accuracy is: 
+[0.8824121]
+
+
+
+
+8
+g_measure:
+[0.06, 0.09999999999999999, 0.01]
+
+
+Choquet integral accuracy is: 
+[0.8750419]
+
+
+
+
+9
+g_measure:
+[0.06, 0.11, 0.01]
+
+
+Choquet integral accuracy is: 
+[0.8683417]
+
+
+
+
+10
+g_measure:
+[0.06, 0.06999999999999999, 0.01]
+
+
+Choquet integral accuracy is: 
+[0.89061975]
+
+
+
+
+11
+g_measure:
+[0.06, 0.06999999999999999, 0.02]
+
+
+Choquet integral accuracy is: 
+[0.8927973]
+
+
+
+
+12
+g_measure:
+[0.06, 0.06999999999999999, 0.03]
+
+
+Choquet integral accuracy is: 
+[0.89463985]
+
+
+
+
+13
+g_measure:
+[0.06, 0.06999999999999999, 0.04]
+
+
+Choquet integral accuracy is: 
+[0.89765495]
+
+
+
+
+14
+g_measure:
+[0.06, 0.06999999999999999, 0.05]
+
+
+Choquet integral accuracy is: 
+[0.89932996]
+
+
+The dataset name is: 
+all_datasets
+
+
+The dataset type is: 
+test
+
+
+The total number of images is: 
+5970
+
+
+Best Choquet integral accuracy is: 
+[0.89932996]
+
+
+Best index is: 
+14
+
+
