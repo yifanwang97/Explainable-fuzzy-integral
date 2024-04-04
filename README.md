@@ -213,7 +213,7 @@ Contributions of different features as determined by ChI-DE are shown as follows
 |16| Roschip | 24.73% | 21.59% | 53.68% |	
 |17| Buckeye | 0.32% | 0.81% | 98.87% |
 
-## Part 3: 	
+## Part 3: Image Preprocessing
 
 
 
