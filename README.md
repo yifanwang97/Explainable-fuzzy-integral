@@ -280,7 +280,12 @@ Please refer to the folder (i.e., 3_image_preprocessing/3_texture_image_generati
 python generate_texture_feature.py
 ```
 
-The generated texture image is shown in 
+The generated texture image is shown in "3_image_preprocessing/3_texture_image_generation/texture_img.jpg".
+
+### Color image generation
+
+Please refer to the folder (i.e., )
+
 
 
 
