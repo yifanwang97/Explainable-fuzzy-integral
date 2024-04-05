@@ -258,8 +258,13 @@ The images computed by GradCAM are saved to the folder "3_image_preprocessing/1_
 
 Please refer to the folder (i.e., 3_image_preprocessing/2_shape_image_generation).
 
-Download the model from "https://github.com/intel-isl/DPT/releases/download/1_0/dpt_hybrid-midas-501f0c75.pt" and save it in the folder ""
+Download the model from "https://github.com/intel-isl/DPT/releases/download/1_0/dpt_hybrid-midas-501f0c75.pt" and save it in the folder "3_image_preprocessing/2_shape_image_generation/DPT/weights".
 
+```
+python run_monodepth.py
+```
+
+The image with depth information can be found in 
 
 
 
