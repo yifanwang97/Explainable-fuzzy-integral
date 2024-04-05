@@ -228,6 +228,8 @@ The three feature-biased datasets can be downloaded from http://ilab.usc.edu/and
 
 The code is a copy from https://github.com/gyhandy/Humanoid-Vision-Engine and http://martin-hebart.de/code/imscramble.m.
 
+Here, we provide simple examples demonstrating how to use this code.
+
 ### Part 3: Select a mask 
 
 We can segment an image using any segmentation algorithm.
@@ -248,7 +250,9 @@ python select_mask.py
 
 The selected mask is the file "3_image_preprocessing/1_select_mask/preprocessed_images/Segement_GradCam/mask/boat/example.jpg".
 
-The foreground image is the file ""
+The foreground image is the file "3_image_preprocessing/1_select_mask/preprocessed_images/Segement_GradCam/img/boat/example.jpg".
+
+The images computed by GradCAM are saved to the folder 
 
 
 
