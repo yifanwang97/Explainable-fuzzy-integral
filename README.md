@@ -232,7 +232,15 @@ The code is a copy from https://github.com/gyhandy/Humanoid-Vision-Engine and ht
 
 We can segment an image using any segmentation algorithm.
 
-Please refer to the folder 
+Please refer to the folder (i.e., 3_image_preprocessing/1_select_mask).
+
+```
+python show_mask_of_a_fig.py
+```
+
+The original iamge is 
+
+We can obtain 
 
 
 
