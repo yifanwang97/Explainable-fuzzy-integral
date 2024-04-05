@@ -240,12 +240,15 @@ python show_mask_of_a_fig.py
 
 The original iamge is '3_image_preprocessing/1_select_mask/original_images.jpg'.
 
-We can obtain 11 masks of this image. The masks are saved in '3_image_preprocessing/1_select_mask/mask'.
+We can obtain 11 masks of this image. The masks are saved in "3_image_preprocessing/1_select_mask/mask".
 
 ```
 python select_mask.py
 ```
 
+The selected mask is the file "3_image_preprocessing/1_select_mask/preprocessed_images/Segement_GradCam/mask/boat/example.jpg".
+
+The foreground image is the file ""
 
 
 
