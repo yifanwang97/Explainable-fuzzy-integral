@@ -267,14 +267,18 @@ python run_monodepth.py
 The image with depth information can be found in "3_image_preprocessing/2_shape_image_generation/ori_img_monodepth/boat/example.png".
 
 ```
-generate_shape_feature.py
+python generate_shape_feature.py
 ```
 
 The generated shape image is shown in "3_image_preprocessing/2_shape_image_generation/generated_shape_images/boat/example.png".
 
 ### Texture image generation
 
-Please refer to the folder 
+Please refer to the folder (i.e., 3_image_preprocessing/3_texture_image_generation).
+
+```
+python generate_texture_feature.py
+```
 
 
 
