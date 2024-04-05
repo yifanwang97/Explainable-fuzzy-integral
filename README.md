@@ -284,7 +284,11 @@ The generated texture image is shown in "3_image_preprocessing/3_texture_image_g
 
 ### Color image generation
 
-Please refer to the folder (i.e., )
+Please refer to the folder (i.e., 3_image_preprocessing/4_color_image_generation)
+
+Run main.m
+
+The generated color image is shown in ""
 
 
 
