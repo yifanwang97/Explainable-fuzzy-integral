@@ -270,8 +270,11 @@ The image with depth information can be found in "3_image_preprocessing/2_shape_
 generate_shape_feature.py
 ```
 
-The generated shape image is shown in 
+The generated shape image is shown in "3_image_preprocessing/2_shape_image_generation/generated_shape_images/boat/example.png".
 
+### Texture image generation
+
+Please refer to the folder 
 
 
 
