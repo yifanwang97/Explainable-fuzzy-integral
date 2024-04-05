@@ -12,7 +12,7 @@ python main_shape.py
 
 We can obtain a ResNet18 model for the shape images. 
 
-The ResNet18 model achieves the best validation accuracy and is stored in a pth file named ‘16.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/’.
+The ResNet18 model with the best validation accuracy is stored in a pth file named ‘16.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/’.
 
 The training results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/”.
 
@@ -22,7 +22,7 @@ python main_texture.py
 
 We can obtain a ResNet18 model for the texture images. 
 
-The ResNet18 model achieves the best validation accuracy and is stored in a pth file named ‘23.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/texture_resnet18/’.
+The ResNet18 model with the best validation accuracy is stored in a pth file named ‘23.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/texture_resnet18/’.
 
 The training results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/texture_resnet18/”.
 
@@ -33,7 +33,7 @@ python main_color.py
 
 We can obtain a ResNet18 model for the color images. 
 
-The ResNet18 model achieves the best validation accuracy and is stored in a pth file named ‘8.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/color_resnet18/’.
+The ResNet18 model with the best validation accuracy is stored in a pth file named ‘8.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/color_resnet18/’.
 
 The training results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/color_resnet18/”.
 
@@ -43,7 +43,7 @@ python main_ori.py
 
 We can obtain a ResNet18 model for the original images. 
 
-The ResNet18 model achieves the best validation accuracy and is stored in a pth file named ‘25.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/original_resnet18/’.
+The ResNet18 model with the best validation accuracy is stored in a pth file named ‘25.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/original_resnet18/’.
 
 The training results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/original_resnet18/”.
 
