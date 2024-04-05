@@ -238,9 +238,14 @@ Please refer to the folder (i.e., 3_image_preprocessing/1_select_mask).
 python show_mask_of_a_fig.py
 ```
 
-The original iamge is 
+The original iamge is '3_image_preprocessing/1_select_mask/original_images.jpg'.
 
-We can obtain 
+We can obtain 11 masks of this image. The masks are saved in '3_image_preprocessing/1_select_mask/mask'.
+
+```
+python select_mask.py
+```
+
 
 
 
