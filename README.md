@@ -226,5 +226,7 @@ Contributions of different features as determined by ChI-DE are shown as follows
 
 The three feature-biased datasets can be downloaded from http://ilab.usc.edu/andy/dataset/hve.zip.
 
+Please refer to the folder
+
 
 
