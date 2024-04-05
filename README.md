@@ -224,6 +224,7 @@ Contributions of different features as determined by ChI-DE are shown as follows
 
 ## Part 3: Image Preprocessing
 
+The three feature-biased datasets can be downloaded from http://ilab.usc.edu/andy/dataset/hve.zip.
 
 
 
