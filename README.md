@@ -240,7 +240,7 @@ Please refer to the folder (i.e., 3_image_preprocessing/1_select_mask).
 python show_mask_of_a_fig.py
 ```
 
-The original iamge is '3_image_preprocessing/1_select_mask/original_images.jpg'.
+The original image is '3_image_preprocessing/1_select_mask/original_images.jpg'.
 
 We can obtain 11 masks of this image. The masks are saved in "3_image_preprocessing/1_select_mask/mask".
 
@@ -255,6 +255,10 @@ The foreground image is the file "3_image_preprocessing/1_select_mask/preprocess
 The images computed by GradCAM are saved to the folder "3_image_preprocessing/1_select_mask/cam_images".
 
 ### Shape image generation
+
+Please refer to the folder (i.e., 3_image_preprocessing/2_shape_image_generation).
+
+Download the model from "https://github.com/intel-isl/DPT/releases/download/1_0/dpt_hybrid-midas-501f0c75.pt" and save it in the folder
 
 
 
