@@ -264,7 +264,13 @@ Download the model from "https://github.com/intel-isl/DPT/releases/download/1_0/
 python run_monodepth.py
 ```
 
-The image with depth information can be found in 
+The image with depth information can be found in "3_image_preprocessing/2_shape_image_generation/ori_img_monodepth/boat/example.png".
+
+```
+generate_shape_feature.py
+```
+
+The generated shape image is shown in 
 
 
 
