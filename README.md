@@ -226,7 +226,13 @@ Contributions of different features as determined by ChI-DE are shown as follows
 
 The three feature-biased datasets can be downloaded from http://ilab.usc.edu/andy/dataset/hve.zip.
 
-Please refer to the folder
+The code is a copy from https://github.com/gyhandy/Humanoid-Vision-Engine and http://martin-hebart.de/code/imscramble.m.
+
+### Part 3: Select a mask 
+
+We can segment an image using any segmentation algorithm.
+
+Please refer to the folder 
 
 
 
