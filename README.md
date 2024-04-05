@@ -1,4 +1,4 @@
-# Explainable_fuzzy_integral
+# Explainable-fuzzy-integral
 The code for the paper "Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision".
 
 ## Part 1: Fuzzy Integral
