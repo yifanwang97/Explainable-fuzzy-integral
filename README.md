@@ -1,7 +1,7 @@
 # Explainable-fuzzy-integral
 The code for the paper "Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision".
 
-Reference:  
+**Reference:**  
 Y. Wang, W. Pedrycz, H. Ishibuchi, and J. Zhu, “Fusion of explainable deep learning features using fuzzy integral in computer vision,” *IEEE Transactions on Fuzzy Systems*, pp. 1–12, 2024, Early Access.
 
 @ARTICLE{10613462,  
