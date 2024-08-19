@@ -1,16 +1,16 @@
 # Explainable-fuzzy-integral
 The code for the paper "Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision".
 
-Reference:
+Reference:  
 Y. Wang, W. Pedrycz, H. Ishibuchi, and J. Zhu, “Fusion of explainable deep learning features using fuzzy integral in computer vision,” *IEEE Transactions on Fuzzy Systems*, pp. 1–12, 2024, Early Access.
 
-@ARTICLE{10613462,
-	author={Wang, Yifan and Pedrycz, Witold and Ishibuchi, Hisao and Zhu, Jihua},
-	journal={IEEE Transactions on Fuzzy Systems}, 
-	title={Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision}, 
-	year={2024, Early Access},
-	pages={1-12}
-}
+@ARTICLE{10613462,  
+	author={Wang, Yifan and Pedrycz, Witold and Ishibuchi, Hisao and Zhu, Jihua},  
+	journal={IEEE Transactions on Fuzzy Systems},   
+	title={Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision},   
+	year={2024, Early Access},  
+	pages={1-12}  
+}  
 
 ## Part 1: Fuzzy Integral
 Before using the fuzzy integral to combine shape, texture, and color features, we must train deep learning networks for each individual feature.
