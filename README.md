@@ -12,7 +12,8 @@ Y. Wang, W. Pedrycz, H. Ishibuchi, and J. Zhu, “Fusion of explainable deep lea
 	pages={1-12}  
 }  
 
-**Introduction:** 
+**Brief Introduction:** 
+
 In this study, the effectiveness of eight fuzzy integral fusion algorithms for enhancing classification accuracy in computer vision has been explored. Computational experiments show that fuzzy integral fusion can improve classification accuracy by 14.6% compared with an individual deep neural network on subsets derived from the ImageNet dataset. In our experiments, original images have been transformed into shape, texture, and color images. ResNet18 has been employed to extract shape, texture, and color features from these images respectively. Through fuzzy integral fusion, the contributions of shape, texture, and color features for different classes could be clearly evaluated. As a result, the proposed approaches not only achieve higher classification accuracy but also provide explainability. Specifically, given an image pattern, the proposed approaches have the ability to provide a convincing explanation of how this input pattern is classified into a specific class.
 
 ## Part 1: Fuzzy Integral
