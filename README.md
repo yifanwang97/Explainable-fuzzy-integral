@@ -30,7 +30,7 @@ We can obtain a ResNet18 model for the shape images.
 
 The ResNet18 model with the best validation accuracy is stored in a pth file named ‘16.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/’.
 
-The training results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/”.
+The training process and results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/shape_resnet18/”.
 
 ```
 python main_texture.py 
@@ -40,7 +40,7 @@ We can obtain a ResNet18 model for the texture images.
 
 The ResNet18 model with the best validation accuracy is stored in a pth file named ‘23.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/texture_resnet18/’.
 
-The training results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/texture_resnet18/”.
+The training process and results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/texture_resnet18/”.
 
 
 ```
@@ -51,7 +51,7 @@ We can obtain a ResNet18 model for the color images.
 
 The ResNet18 model with the best validation accuracy is stored in a pth file named ‘8.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/color_resnet18/’.
 
-The training results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/color_resnet18/”.
+The training process and results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/color_resnet18/”.
 
 ```
 python main_ori.py 
@@ -61,7 +61,7 @@ We can obtain a ResNet18 model for the original images.
 
 The ResNet18 model with the best validation accuracy is stored in a pth file named ‘25.pth’. You can find this file located at ‘1_fuzzy_integral_fold1/data/all_datasets/model/original_resnet18/’.
 
-The training results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/original_resnet18/”.
+The training process and results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/original_resnet18/”.
 
 ### Fuzzy Integral Fusion
 Please refer to the folder (i.e., 1_fuzzy_integral_fold1).
@@ -124,7 +124,7 @@ python main_ChI_QP_all.py
 
 We can obtain the fuzzy fusion results of ChI-QP.
 
-The results are shown in a text file named "ChI-QP.txt" located at "1_fuzzy_integral_fold1/results/all_datasets/".
+The training process and results are shown in a text file named "ChI-QP.txt" located at "1_fuzzy_integral_fold1/results/all_datasets/".
 
 #### iCHIMP
 
@@ -134,7 +134,7 @@ python main_iCHIMP_all.py
 
 We can obtain the fuzzy fusion results of iCHIMP.
 
-The results are shown in a text file named "iCHIMP.txt" located at "1_fuzzy_integral_fold1/results/all_datasets/".
+The training process and results are shown in a text file named "iCHIMP.txt" located at "1_fuzzy_integral_fold1/results/all_datasets/".
 
 #### ChI-DE
 
@@ -144,7 +144,7 @@ python main_ChI_DE_all.py
 
 We can obtain the fuzzy fusion results of ChI-DE.
 
-The results are shown in a text file named "ChI-DE.txt" located at "1_fuzzy_integral_fold1/results/all_datasets/".
+The training process and results are shown in a text file named "ChI-DE.txt" located at "1_fuzzy_integral_fold1/results/all_datasets/".
 
 #### FI-CNN
 
@@ -162,7 +162,7 @@ python main_FI_CNN_all.py
 
 We can obtain the fuzzy fusion results of FI-CNN.
 
-The results are shown in a text file named "FI_CNN_F1_score.txt" located at "1_fuzzy_integral_fold1/results/all_datasets/".
+The training process and results are shown in a text file named "FI_CNN_F1_score.txt" located at "1_fuzzy_integral_fold1/results/all_datasets/".
 
 #### Conclusion
 Here, all the fuzzy fusion results are evaluated on the combined dataset (fold 1).
