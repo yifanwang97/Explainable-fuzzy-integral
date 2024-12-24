@@ -201,11 +201,11 @@ Here, all the fuzzy fusion results are evaluated on the combined dataset (fold 1
 |FI-CNN|89.93%|
 
 #### Please note:   
-1) I learned the foundational theory of the fuzzy integral through this video: https://www.youtube.com/watch?v=467iAANUTvw. The implementation of four algorithms (i.e., Shared SI, SI for each class, Shared ChI, and ChI for each class) is based on this video. I also have learned so much from https://github.com/scottgs/FuzzyFusion_DeepLearning_Tutorial and https://github.com/scottgs/fi_library.      
-2) ChI-QP is a copy from https://github.com/B-Mur/choquet-integral.   
-3) iCHIMP is a copy from https://github.com/aminb99/choquet-integral-NN.  
-4) In ChI-DE, the implementation of the evolutionary algorithm is based on Geatpy: https://github.com/geatpy-dev/geatpy.   
-5) The implementation of FI-CNN is based on a TCSVT paper. The original code can be downloaded from https://github.com/theavicaster/fuzzy-integral-cnn-fusion-3d-har.   
+* I learned the foundational theory of the fuzzy integral through this video: https://www.youtube.com/watch?v=467iAANUTvw. The implementation of four algorithms (i.e., Shared SI, SI for each class, Shared ChI, and ChI for each class) is based on this video. I also have learned so much from https://github.com/scottgs/FuzzyFusion_DeepLearning_Tutorial and https://github.com/scottgs/fi_library.      
+* ChI-QP is a copy from https://github.com/B-Mur/choquet-integral.   
+* iCHIMP is a copy from https://github.com/aminb99/choquet-integral-NN.  
+* In ChI-DE, the implementation of the evolutionary algorithm is based on Geatpy: https://github.com/geatpy-dev/geatpy.   
+* The implementation of FI-CNN is based on a TCSVT paper. The original code can be downloaded from https://github.com/theavicaster/fuzzy-integral-cnn-fusion-3d-har.   
 
 ## Part 2: Explainability
 Please refer to the folder (i.e., 2_explainability).
