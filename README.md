@@ -64,7 +64,7 @@ The ResNet18 model with the best validation accuracy is stored in a pth file nam
 The training process and results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/original_resnet18/”.
 
 ### Fuzzy Integral Fusion
-I learned the foundational theory of the fuzzy integral through this video: https://www.youtube.com/watch?v=467iAANUTvw.
+I learned the foundational theory of the fuzzy integral through this video: https://www.youtube.com/watch?v=467iAANUTvw.   
 Please refer to the folder (i.e., 1_fuzzy_integral_fold1).
 
 #### Baseline
