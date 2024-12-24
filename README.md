@@ -91,10 +91,12 @@ The validation results are shown in a text file named "validation_accuracy.txt" 
 
 #### Shared SI & Shared ChI
 
+The required package can be installed with the following command:  
 ```
 pip install sympy
 ```
 
+Then:   
 ```
 python main_simple_integral.py
 ```
@@ -123,6 +125,12 @@ The results are shown in a text file named "gi_for_each_class_SI_ChI.txt" locate
 
 #### ChI-QP
 
+The required package can be installed with the following command:  
+```
+pip install cvxopt
+```
+
+Then:   
 ```
 python main_ChI_QP_all.py
 ```
@@ -143,6 +151,12 @@ The training process and results are shown in a text file named "iCHIMP.txt" loc
 
 #### ChI-DE
 
+The required package can be installed with the following command:  
+```
+pip install geatpy
+```
+
+Then:   
 ```
 python main_ChI_DE_all.py
 ```
@@ -191,7 +205,7 @@ Please note:
 2) ChI-QP is a copy from https://github.com/B-Mur/choquet-integral.   
 3) iCHIMP is a copy from https://github.com/aminb99/choquet-integral-NN.  
 4) In ChI-DE, the implementation of the evolutionary algorithm is based on Geatpy: https://github.com/geatpy-dev/geatpy.   
-5) FI-CNN is a copy from https://github.com/theavicaster/fuzzy-integral-cnn-fusion-3d-har.   
+5) The implementation of FI-CNN is based on a TCSVT paper. The original code can be downloaded from https://github.com/theavicaster/fuzzy-integral-cnn-fusion-3d-har.   
 
 ## Part 2: Explainability
 Please refer to the folder (i.e., 2_explainability).
