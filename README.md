@@ -20,7 +20,8 @@ In this study, the effectiveness of eight fuzzy integral fusion algorithms for e
 ## Part 1: Fuzzy Integral
 Before using the fuzzy integral to combine shape, texture, and color features, we must train deep learning networks for each individual feature.
 ### Training Deep learning networks
-Please refer to the folder (i.e., 1_fuzzy_integral_fold1/Training_DNNs).
+Please refer to the folder (i.e., 1_fuzzy_integral_fold1/Training_DNNs).   
+I used PyTorch 3.8 to run the code, but I think other versions, such as PyTorch 3.10, should also work.
 
 ```
 python main_shape.py 
@@ -89,6 +90,10 @@ python testing_acc_val.py
 The validation results are shown in a text file named "validation_accuracy.txt" located at "1_fuzzy_integral_fold1/results/all_datasets/".
 
 #### Shared SI & Shared ChI
+
+```
+pip install sympy
+```
 
 ```
 python main_simple_integral.py
