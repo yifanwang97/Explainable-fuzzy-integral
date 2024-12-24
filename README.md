@@ -64,7 +64,6 @@ The ResNet18 model with the best validation accuracy is stored in a pth file nam
 The training process and results are shown in a text file named “log.txt” located at “1_fuzzy_integral_fold1/data/all_datasets/model/original_resnet18/”.
 
 ### Fuzzy Integral Fusion
-I learned the foundational theory of the fuzzy integral through this video: https://www.youtube.com/watch?v=467iAANUTvw.   
 Please refer to the folder (i.e., 1_fuzzy_integral_fold1).
 
 #### Baseline
@@ -181,6 +180,13 @@ Here, all the fuzzy fusion results are evaluated on the combined dataset (fold 1
 |iCHIMP|89.65%|
 |ChI-DE|87.96%|
 |FI-CNN|89.93%|
+
+I learned the foundational theory of the fuzzy integral through this video: https://www.youtube.com/watch?v=467iAANUTvw.   
+The implementation of four algorithms (i.e., Shared SI, SI for each class, Shared ChI, and ChI for each class) is based on this video.   
+CHI-QP is a copy from https://github.com/B-Mur/choquet-integral.   
+iCHIMP is a copy from https://github.com/aminb99/choquet-integral-NN.  
+In ChI-DE, the implementation of the evolutionary algorithm is based on Geatpy: https://github.com/geatpy-dev/geatpy.   
+FI-CNN is a copy from https://github.com/theavicaster/fuzzy-integral-cnn-fusion-3d-har.   
 
 ## Part 2: Explainability
 Please refer to the folder (i.e., 2_explainability).
