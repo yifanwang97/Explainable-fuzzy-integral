@@ -201,7 +201,7 @@ Here, all the fuzzy fusion results are evaluated on the combined dataset (fold 1
 |FI-CNN|89.93%|
 
 #### Please note:   
-* I learned the foundational theory of the fuzzy integral through this video: https://www.youtube.com/watch?v=467iAANUTvw. The implementation of four algorithms (i.e., Shared SI, SI for each class, Shared ChI, and ChI for each class) is based on this video. I also have learned so much from https://github.com/scottgs/FuzzyFusion_DeepLearning_Tutorial and https://github.com/scottgs/fi_library.      
+* I learned the foundational theory of the fuzzy integral through this video: https://www.youtube.com/watch?v=467iAANUTvw. The implementation of four algorithms (i.e., Shared SI, SI for each class, Shared ChI, and ChI for each class) is based on this video. If you’re not a researcher in the fuzzy community, I highly recommend checking out this video. I also have learned so much from https://github.com/scottgs/FuzzyFusion_DeepLearning_Tutorial and https://github.com/scottgs/fi_library.      
 * ChI-QP is a copy from https://github.com/B-Mur/choquet-integral.   
 * iCHIMP is a copy from https://github.com/aminb99/choquet-integral-NN.  
 * In ChI-DE, the implementation of the evolutionary algorithm is based on Geatpy: https://github.com/geatpy-dev/geatpy.   
