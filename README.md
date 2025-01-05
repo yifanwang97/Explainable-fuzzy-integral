@@ -184,7 +184,8 @@ We can obtain the fuzzy fusion results of FI-CNN.
 The training process and results are shown in a text file named "FI_CNN_F1_score.txt" located at "1_fuzzy_integral_fold1/results/all_datasets/".
 
 #### Conclusion
-Here, all the fuzzy fusion results are evaluated on the combined dataset (fold 1).
+Here, all the fuzzy fusion results are evaluated on the combined dataset (fold 1).    
+The combined dataset refers to the combination of three datasets: shape, texture, and color-biased datasets.      
 
 | Method | Accuracy |
 |:-------|:--------|
