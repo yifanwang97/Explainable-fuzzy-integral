@@ -4,7 +4,7 @@ The code for the paper "Fusion of Explainable Deep Learning Features Using Fuzzy
 **Reference:**  
 Y. Wang, W. Pedrycz, H. Ishibuchi and J. Zhu, "Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision," *IEEE Transactions on Fuzzy Systems*, vol. 33, no. 1, pp. 156-167, 2025.
 
-@ARTICLE{10613462,
+@ARTICLE{10613462,   
   author={Wang, Yifan and Pedrycz, Witold and Ishibuchi, Hisao and Zhu, Jihua},   
   journal={IEEE Transactions on Fuzzy Systems},    
   title={Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision},    
