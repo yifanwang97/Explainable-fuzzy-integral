@@ -2,17 +2,19 @@
 The code for the paper "Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision".
 
 **Reference:**  
-Y. Wang, W. Pedrycz, H. Ishibuchi, and J. Zhu, “Fusion of explainable deep learning features using fuzzy integral in computer vision,” *IEEE Transactions on Fuzzy Systems*, pp. 1–12, 2024, Early Access.
+Y. Wang, W. Pedrycz, H. Ishibuchi and J. Zhu, "Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision," *IEEE Transactions on Fuzzy Systems*, vol. 33, no. 1, pp. 156-167, 2025.
 
-@ARTICLE{10613462,  
-	author={Wang, Yifan and Pedrycz, Witold and Ishibuchi, Hisao and Zhu, Jihua},  
-	journal={IEEE Transactions on Fuzzy Systems},   
-	title={Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision},   
-	year={2024, Early Access},  
-	pages={1-12}  
-}  
+@ARTICLE{10613462,
+  author={Wang, Yifan and Pedrycz, Witold and Ishibuchi, Hisao and Zhu, Jihua},
+  journal={IEEE Transactions on Fuzzy Systems}, 
+  title={Fusion of Explainable Deep Learning Features Using Fuzzy Integral in Computer Vision}, 
+  year={2025},
+  volume={33},
+  number={1},
+  pages={156-167}
+}
 
-The paper can be downloaded from https://ieeexplore.ieee.org/abstract/document/10613462.
+The paper can be downloaded from https://ieeexplore.ieee.org/document/10613462.
 
 **Introduction:**   
 In this study, the effectiveness of eight fuzzy integral fusion algorithms for enhancing classification accuracy in computer vision has been explored. Computational experiments show that fuzzy integral fusion can improve classification accuracy by 14.6% compared with an individual deep neural network on subsets derived from the ImageNet dataset. In our experiments, original images are transformed into shape, texture, and color images. Then, ResNet18 is employed to extract shape, texture, and color features from these images respectively. Through fuzzy integral fusion, the contributions of shape, texture, and color features for different classes could be clearly evaluated. As a result, the proposed approaches not only achieve higher classification accuracy but also provide explainability. Specifically, given an image pattern, the proposed approaches have the ability to provide a convincing explanation of how this input pattern is classified into a specific class.
