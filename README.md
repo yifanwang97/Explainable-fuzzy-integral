@@ -277,7 +277,7 @@ The code is a copy from https://github.com/gyhandy/Humanoid-Vision-Engine and ht
 
 Here, we provide simple examples demonstrating how to use this code.
 
-### Select a mask 
+### Select A Mask 
 
 We can segment an image using any segmentation algorithm.
 
