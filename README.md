@@ -301,7 +301,7 @@ The foreground image is the file "3_image_preprocessing/1_select_mask/preprocess
 
 The images computed by GradCAM are saved to the folder "3_image_preprocessing/1_select_mask/cam_images".
 
-### Shape image generation
+### Shape Image Generation
 
 Please refer to the folder (i.e., 3_image_preprocessing/2_shape_image_generation).
 
@@ -319,7 +319,7 @@ python generate_shape_feature.py
 
 The generated shape image is shown in "3_image_preprocessing/2_shape_image_generation/generated_shape_images/boat/example.png".
 
-### Texture image generation
+### Texture Image Generation
 
 Please refer to the folder (i.e., 3_image_preprocessing/3_texture_image_generation).
 
@@ -329,13 +329,27 @@ python generate_texture_feature.py
 
 The generated texture image is shown in "3_image_preprocessing/3_texture_image_generation/texture_img.jpg".
 
-### Color image generation
+### Color Image Generation
 
 Please refer to the folder (i.e., 3_image_preprocessing/4_color_image_generation)
 
 Run main.m
 
 The generated color image is shown in "3_image_preprocessing/4_color_image_generation/result.jpg".
+
+## Part 4: Future Research Directions
+
+The proposed approaches show significant potential for further application in the field of computer vision. The limitations and future research directions are divided into four parts:
+
+1) Our study primarily deals with simple images, each containing a single object. However, real-world images often include multiple objects. For instance, an image could simultaneously highlight a person, a dog, and a cat as significant foreground objects. In certain scenarios, background objects also contribute to the recognition of foreground objects. For example, planes and birds are typically associated with the sky, while horses, sheep, and flowers are associated with grass. Such background objects (i.e., sky and grass) have been ignored in our study. In the future, we consider incorporating causal relationships as beneficial features before making final decisions. Utilizing a relational graph model to establish connections among all objects in an image is a good choice.
+2) When compared to individual DNNs, the fuzzy integral strategy can significantly enhance the classification performance. However, a large gap still exists in terms of classification accuracy. For instance, ResNet18 achieves 95.21% on the combined dataset (fold 1) on foreground images, whereas achieves 89.93% based on fuzzy integral fusion. Enhancing the proposed explainable classifier is an interesting research direction. On the one hand, we can use some tricks to improve classification accuracy such as data augmentation, integrating different loss functions, and dropout during the training process. Enhancing the accuracy of a single classifier will subsequently improve the results of fused classification. On the other hand, in this study, the DNNs are frozen in the fusion process. Future studies could investigate the fine-tuning of parameters in both DNNs and fuzzy integral fusion with more GPUs and CPUs.
+3) In our experiments, the inputs for the fuzzy integral are real numbers. It would be interesting to extend the proposed approaches to general fuzzy set-valued integral fusion. Additional fuzzy fusion techniques could also be explored for the fusion of shape, texture, and color features in computer vision such as Takagi–Sugeno–Kang fuzzy systems [34]. In this way, the fusion process extends beyond the decision level and can be applied to feature-level fusion.
+4) Feature extraction remains a challenging topic. When it comes to shape features, we often capture the edges of foreground objects. However, relying solely on edges falls short when describing complex shapes like “a cat with two pointed ears and a round face.” For texture features, the small size of patches often obscures details, making it challenging to describe fine patterns such as stripes and spots on objects. Beyond shape, texture, and color features, how to extract some visual attributes (i.e., domestic, small, and stripe) that relate to the object and how the object is described by these attributes is an interesting research direction. Existing studies, such as the hierarchical criteria network, offer a promising approach for learning useful attributes and descriptions. For instance, they can help describe a tabby cat as a domestic feline with stripes, dots, or lines.
+
+Thanks for your attention~
+
+
+
 
 
 
